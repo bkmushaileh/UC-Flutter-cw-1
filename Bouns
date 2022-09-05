@@ -4,10 +4,9 @@ void main() {
   var tempC;
   
   //(°F − 32) / 1.8 = °C
-  tempF = 32;
-  tempC = (tempF - 32.0) / 1.8;
+  tempF = 30;
+  tempC = ((tempF - 32.0) / 1.8).toStringAsPrecision(3);
     
   print(tempC);
 }
-
 
