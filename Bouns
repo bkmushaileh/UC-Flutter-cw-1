@@ -1,0 +1,13 @@
+void main() {
+
+  var tempF;
+  var tempC;
+  
+  //(°F − 32) / 1.8 = °C
+  tempF = 32;
+  tempC = (tempF - 32.0) / 1.8;
+    
+  print(tempC);
+}
+
+

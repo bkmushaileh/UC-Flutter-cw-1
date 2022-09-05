@@ -1,1 +1,26 @@
+void main() {
+//weight و height
+  
+  var weight;
+  var height;
+ 
+  var bmi = ((weight)/(height*height));
+  
+  
+/*إذا كان BMI أقل من 18.6 تطبع الجملة( underweight)
+إذا كان BMI أقل من 24.9 و اكثر من 18.6 تطبع الجملة (Normal)
+إذا كان BMI أكثر من 24.9 تطبع الجملة (Over weight)*/
+  
+  if (bmi < 18.6){
+    print("UnderWeight🥊");
+  }
+  else if (bmi < 24.9 && bmi > 18.6){
+    print("Normal🍿");
+  }
+  else {
+    print("OverWeight🐣");
+  }
+    
+}
+
 

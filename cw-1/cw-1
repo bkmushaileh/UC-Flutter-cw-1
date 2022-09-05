@@ -1,1 +1,13 @@
 
+void main() {
+
+   //firstName, lastName , age ,hobby
+  var firstName = "Bashaier";
+  var lastName = "AlMeshaileh";
+  var hobby = "Maybe Coding idk🫀";
+  var age = 26;
+    
+    print("I'm " + age.toString() + ",my hobby is " + hobby);
+    
+  
+}
