@@ -6,7 +6,7 @@ void main() {
   //(°F − 32) / 1.8 = °C
   tempF = 30;
   tempC = ((tempF - 32.0) / 1.8).toStringAsPrecision(3);
-    
-  print(tempC);
-}
+    //مثال: result: 80.0F = 26.7C
 
+  print("Result: " + tempF.toString()+ "F = " + tempC.toString() +"C");
+}
